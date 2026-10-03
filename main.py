@@ -54,6 +54,7 @@ else:
     print("No")
 """
 
+""" 
 Num = [4,3,1,0,6,5]
 Num.sort()
 cart = ["Phone" , "Laptop" , "TV"]
@@ -64,3 +65,56 @@ cart.extend(Num)
 #cart.append(New_Product)
 #cart.clear()
 print(cart)
+"""
+#--------------------------------------(2-10-2026)-----------------------------------------#
+
+#list ["",""] , tuple , set , dict
+
+#While loop
+""" 
+i = 0
+while i <= 100:
+    print(i)
+    i+=1
+else:
+    print("End loop")
+names = ["ali" , "mohamed" , "sara"]
+i = 0
+while i < len(names):
+    print(names[i])
+    i+=1
+"""
+#For loop
+""" 
+names = ["Mohamd", "Ali" , "Ahmed" , "Sara"]
+input_name = input("enter your name: ")
+for number in range(4):
+    if input_name == names[number]:
+        print(names[number])
+        break
+    else:
+        print(names[number], f"Is not {input_name}")
+"""
+
+"""  
+for i in names:
+    print (i)
+
+for Num in range(10,50,2):
+    print(Num)
+"""
+
+#Function 
+"""  
+def say_hello(name):
+    print("Hello ",name)
+say_hello("Mohame")
+say_hello("Ahmed")
+say_hello("Ali")
+"""
+
+def calc(num1 , num2):
+    return num1 + num2
+
+result = calc(5,5)*2
+print(result)
